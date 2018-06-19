@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW-4: Crystals Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- reset -->
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anaheim" rel="stylesheet">
+</head>
+<body>
+<!-- <div class="container"> -->
+        <div id="topHeader"><h1>Crystals Collector!</h1></div>
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div class="row">
+            <div class="numberCounter"> <span id="randomNumber">0</span></div>
+            <div class="winsLossesCounter">
+                <p>Wins: <span id="wins"></span></p>
+                <p>Losses: <span id="losses"></span></p>
+            </div>
+        </div>
+        <div class="buttonRow">
+                <button id="button1">
+                    <img alt="blue crystal " src="assets/images/blue.png">
+                </button>
+                <button id="button2">
+                    <img alt="magenta crystal" src="assets/images/magenta.png">
+                </button>
+                <button id="button3">
+                    <img alt="red crystal" src="assets/images/red.png">
+                </button>
+                <button id="button4">
+                    <img alt="green crystal" src="assets/images/green.png">
+                </button>
+        </div>
+        <div class="scoreDiv">
+            <p>Your total score is:</p>
+            
+            <span id="scoreCounter"></span>
+        
+        </div>
+
+<!-- </div> -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+

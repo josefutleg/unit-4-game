@@ -1,0 +1,62 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('../images/background.jpg');
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {
+    font-size: 12px;
+}
+#topHeader {
+    background-color: brown;
+    width: 310px;
+    padding: 10px 0px;
+}
+#instructions {
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 400px;
+    margin: 5px 0;
+}
+#randomNumber, #scoreCounter {
+    font-size: 30px;
+    padding: 10px;
+}
+/* .row{
+    margin: 10px 0;
+} */
+.numberCounter, .winsLossesCounter {
+    float: left;
+    height: 100px;
+    margin: 5px 0;
+}
+.numberCounter {
+    background-color: blue;
+    width: 200px;
+}
+.winsLossesCounter {
+    background-color: turquoise;
+    margin-left: 10px;
+}
+.buttonRow {
+    clear: both;
+    margin: 5px 0;
+
+}
+.scoreDiv {
+    clear: both;
+    margin: 5px 0;
+    background-color: teal;
+    height: 100px;
+    width: 200px;
+}
+img {
+    height: 60px;
+    width: 60px;
+}
+button {
+    background-color:#180e14;
+    border: none;
+    outline: 0;
+}
