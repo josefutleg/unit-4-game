@@ -32,7 +32,7 @@ function play(){
 
 $(document).on('click','button', function(){
     var button = $(this);
-    counter = counter + button.data('value');
+    counter = counter + parseInt(button.attr('data-value'));
     counterDoc = $('#scoreCounter').text(counter);
 
     if (counter == randomNumber){
@@ -42,7 +42,6 @@ $(document).on('click','button', function(){
         winsCounter = winsCounter + 1;
         winsCounterDoc = $('#wins').text(winsCounter);
         return;
-
     }
     if (counter > randomNumber){
         play();
